@@ -1,0 +1,12 @@
+# DataFlow Analyzer - Python dependencies
+# Install with:  py -m pip install -r requirements.txt
+#
+# Python 3.10+ required (developed on Python 3.14).
+# tkinter ships with the standard CPython installer (no pip needed).
+
+pandas>=2.0          # DataFrame engine, CSV/Excel parsing, pivot tables
+matplotlib>=3.7       # bar / line / scatter charts embedded in Tkinter
+openpyxl>=3.1         # read .xlsx files
+xlsxwriter>=3.0       # write formatted .xlsx exports
+reportlab>=4.0        # generate PDF reports
+numpy>=1.25           # numerical backend (installed transitively by pandas)
